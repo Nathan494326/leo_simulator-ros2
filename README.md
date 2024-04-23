@@ -45,7 +45,7 @@ Run a simulation world with leo rover:
     
   Example:
    ```
-   ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:=~/colcon_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/marsyard2021.sdf robot_ns:=your_namespace
+   ros2 launch leo_gz_bringup leo_gz.launch.py sim_world:=~/ros2_ws/src/leo_simulator-ros2/leo_gz_worlds/worlds/lunalab2024.sdf' robot_ns:=your_namespace
    ```
 Add another leo rover to an already running gazebo world:
    ```
