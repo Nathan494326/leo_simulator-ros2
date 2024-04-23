@@ -79,6 +79,19 @@ def generate_launch_description():
         ],
         output="screen",
     )
+    
+    lidar_topic_bridge = Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        name="lidar_bridge",
+        parameters=[
+            {
+                "qos_overrides./tf_static.publisher.durability": "transient_local",
+                "config_file": "/home/dave/Documents/coding/ros2/leorover_gz_sim/ros2_ws/src/leo_simulator-ros2/leo_gz_bringup/config/gz_bridge.yaml",
+            }
+        ],
+        output="screen",
+    )
 
     return LaunchDescription(
         [
@@ -87,5 +100,6 @@ def generate_launch_description():
             gz_sim,
             spawn_robot,
             topic_bridge,
+            lidar_topic_bridge,
         ]
     )
