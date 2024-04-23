@@ -87,7 +87,7 @@ def generate_launch_description():
         parameters=[
             {
                 "qos_overrides./tf_static.publisher.durability": "transient_local",
-                "config_file": "/home/dave/Documents/coding/ros2/leorover_gz_sim/ros2_ws/src/leo_simulator-ros2/leo_gz_bringup/config/gz_bridge.yaml",
+                "config_file": "~/ros2_ws/src/leo_simulator-ros2/leo_gz_bringup/config/gz_bridge.yaml",
             }
         ],
         output="screen",
