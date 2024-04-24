@@ -36,6 +36,11 @@ def generate_launch_description():
     pkg_ros_gz_sim = get_package_share_directory("ros_gz_sim")
     pkg_project_gazebo = get_package_share_directory("leo_gz_bringup")
     pkg_project_worlds = get_package_share_directory("leo_gz_worlds")
+    lidar_bridge_config = os.path.join(
+      get_package_share_directory('leo_gz_bringup'),
+      'config',
+      'gz_bridge.yaml'
+      )
 
     sim_world = DeclareLaunchArgument(
         "sim_world",
@@ -86,8 +91,8 @@ def generate_launch_description():
         name="lidar_bridge",
         parameters=[
             {
-                "qos_overrides./tf_static.publisher.durability": "transient_local",
-                "config_file": "~/ros2_ws/src/leo_simulator-ros2/leo_gz_bringup/config/gz_bridge.yaml",
+                # "qos_overrides./tf_static.publisher.durability": "transient_local",
+                "config_file": lidar_bridge_config,
             }
         ],
         output="screen",
