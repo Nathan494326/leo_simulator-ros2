@@ -9,7 +9,7 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://lunalab2024_terrain/meshes/lunalab2024_terrain.dae</uri>
+            <uri>model://lunalab2024_terrain/meshes/lunalab2024_terrain.stl</uri>
           </mesh>
         </geometry>
       </collision>
