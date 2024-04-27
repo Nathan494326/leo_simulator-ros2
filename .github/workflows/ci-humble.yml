@@ -1,4 +1,4 @@
-name: CI
+name: CI-Humble
 
 on:
   workflow_dispatch:
