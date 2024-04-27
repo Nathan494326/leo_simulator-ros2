@@ -2,8 +2,8 @@
 Changelog for package leo_gz_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2024-04-27)
+------------------
 * Update package dependencies
 * Fix build for Gazebo Harmonic
 * Set new GZ variables to work on Gazebo Harmonic

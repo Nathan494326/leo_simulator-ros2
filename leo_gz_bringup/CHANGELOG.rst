@@ -2,8 +2,8 @@
 Changelog for package leo_gz_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2024-04-27)
+------------------
 * Set new GZ variables to work on Gazebo Harmonic
 * Contributors: Błażej Sowa
 
