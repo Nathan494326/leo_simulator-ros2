@@ -1,12 +1,13 @@
-# leo_simulator-ros2
-Packages for simulating Leo Rover in ROS2 and Gazebo.
+# Packages for simulating Leo Rover in ROS2 and Gazebo
 
 ROS 2 version | Gazebo version | Branch | Binaries hosted at
 -- | -- | -- | --
 Humble | Fortress | [humble](https://github.com/LeoRover/leo_simulator-ros2/tree/humble) | https://packages.ros.org
 Humble | Garden | [humble](https://github.com/LeoRover/leo_simulator-ros2/tree/humble) | only from source
+Humble | Harmonic | [humble](https://github.com/LeoRover/leo_simulator-ros2/tree/humble) | only from source
 Iron | Fortress | [iron](https://github.com/LeoRover/leo_simulator-ros2/tree/iron) | https://packages.ros.org
 Iron | Garden | [iron](https://github.com/LeoRover/leo_simulator-ros2/tree/iron) | only from source
+Iron | Harmonic | [iron](https://github.com/LeoRover/leo_simulator-ros2/tree/iron) | only from source
 
 ## Packages
 * `leo_simulator` - Metapackage which provides all other packages.
@@ -70,7 +71,7 @@ ros2 launch leo_gz_bringup leo_gz.launch.py
 ```
 
 Launch agruments:
-* `sim_world` (default: `leo_empty.sdf`) - The Gazebo world to use. Refer to the leo_gz_worlds package for available worlds.
+* `sim_world` (default: `leo_empty.sdf`) - The Gazebo world to use. Refer to the [leo_gz_worlds](https://github.com/LeoRover/leo_simulator-ros2/tree/iron/leo_gz_worlds) package for available worlds.
 * `robot_ns` (default: `""`) - Robot namespace
     
 Example:
