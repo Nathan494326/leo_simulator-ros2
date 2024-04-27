@@ -2,8 +2,8 @@
 Changelog for package leo_gz_worlds
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2024-04-27)
+------------------
 * Get rid of all the ignition references
 * Contributors: Błażej Sowa
 
