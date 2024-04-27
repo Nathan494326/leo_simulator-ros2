@@ -2,6 +2,12 @@
 Changelog for package leo_gz_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Get rid of all the ignition references
+* Use gz vendor packages
+* Contributors: Błażej Sowa
+
 1.1.0 (2024-04-27)
 ------------------
 * Update package dependencies
