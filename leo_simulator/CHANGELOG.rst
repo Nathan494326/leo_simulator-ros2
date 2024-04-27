@@ -2,6 +2,9 @@
 Changelog for package leo_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 1.0.0 (2023-11-08)
 ------------------
 * Add missing dependencies and better descriptions

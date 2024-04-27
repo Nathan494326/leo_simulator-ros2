@@ -2,6 +2,13 @@
 Changelog for package leo_gz_plugins
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update package dependencies
+* Fix build for Gazebo Harmonic
+* Set new GZ variables to work on Gazebo Harmonic
+* Contributors: Błażej Sowa
+
 1.0.0 (2023-11-08)
 ------------------
 * Fix warning about unused parameter
