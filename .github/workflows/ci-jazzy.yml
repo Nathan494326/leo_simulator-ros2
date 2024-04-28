@@ -24,7 +24,7 @@ jobs:
         with:
           use-ros2-testing: ${{ matrix.ROS_REPO == 'testing' }}
       - name: Run ROS CI
-        uses: ros-tooling/action-ros-ci@v0.3
+        uses: ros-tooling/action-ros-ci@0.3.8
         with:
           target-ros2-distro: jazzy
           import-token: ${{ secrets.GITHUB_TOKEN }}
