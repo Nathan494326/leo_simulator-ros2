@@ -64,7 +64,7 @@ ros2 launch leo_gz_bringup leo_gz.launch.py
 ```
 
 Launch agruments:
-* `sim_world` (default: `leo_empty.sdf`) - The Gazebo world to use. Refer to the [leo_gz_worlds](https://github.com/LeoRover/leo_simulator-ros2/tree/rolling/leo_gz_worlds) package for available worlds.
+* `sim_world` (default: `leo_empty.sdf`) - The Gazebo world to use. Refer to the [leo_gz_worlds](https://github.com/LeoRover/leo_simulator-ros2/tree/ros2/leo_gz_worlds) package for available worlds.
 * `robot_ns` (default: `""`) - Robot namespace
     
 Example:
