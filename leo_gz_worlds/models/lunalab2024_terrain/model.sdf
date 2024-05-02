@@ -176,5 +176,10 @@
       </visual>
     </link>
 
+    <!-- Make it static to avoid unnecessary physics calculations -->
+    <static>1</static>
+    <!-- Auto disable will not calculate hysics for objects that are currently not being used. -->
+    <allow_auto_disable>1</allow_auto_disable>
+
   </model>
 </sdf>
