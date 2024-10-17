@@ -73,6 +73,10 @@ def spawn_robot(context: LaunchContext, namespace: LaunchConfiguration):
             "robot_description",
             "-name",
             robot_gazebo_name,
+            "-x",
+            "-8.5",
+            "-y",
+            "-9.0",
             "-z",
             "1.65",
         ],
@@ -85,12 +89,13 @@ def spawn_robot(context: LaunchContext, namespace: LaunchConfiguration):
         name=node_name_prefix + "parameter_bridge",
         arguments=[
             robot_ns + "/cmd_vel@geometry_msgs/msg/Twist]ignition.msgs.Twist",
-            robot_ns + "/odom@nav_msgs/msg/Odometry[ignition.msgs.Odometry",
+            # robot_ns + "/odom@nav_msgs/msg/Odometry[ignition.msgs.Odometry",
             robot_ns + "/tf@tf2_msgs/msg/TFMessage[ignition.msgs.Pose_V",
             robot_ns + "/imu/data_raw@sensor_msgs/msg/Imu[ignition.msgs.IMU",
             robot_ns
             + "/camera/camera_info@sensor_msgs/msg/CameraInfo[ignition.msgs.CameraInfo",
             robot_ns + "/joint_states@sensor_msgs/msg/JointState[ignition.msgs.Model",
+            robot_ns + "/model/leo_rover/pose@geometry_msgs/msg/PoseStamped[ignition.msgs.Pose",
         ],
         parameters=[
             {
